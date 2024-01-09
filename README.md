@@ -42,3 +42,6 @@ What's Next on Netflix is a machine learning-powered movie recommendation web ap
 We would love to hear your feedback! If you encounter any issues, have suggestions, or want to share your experience, please reach out to us.
 
 Thank you for using What's Next on Netflix! Enjoy discovering your next favorite movie. 🍿
+
+
+Creator - Parishi
