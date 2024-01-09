@@ -7,7 +7,7 @@ Welcome to **What's Next on Netflix** - Your Personal Movie Recommendation WebAp
 
 ## Overview
 
-What's Next on Netflix is a machine learning-powered movie recommendation web application. The app suggests movies based on your chosen movie, leveraging advanced techniques such as text vectorization and count vectorization. It uses the 5000 TMDB Kaggle dataset, creating a matrix of 4806x4806 to generate movie vectors and recommend the top 10 most matched movies.
+What's Next on Netflix is a machine learning-powered movie recommendation web application. The app suggests movies based on your chosen movie, leveraging advanced techniques such as text vectorization and count vectorization. It uses the 5000 TMDB Kaggle dataset, creating a matrix of 4806x4806 to generate movie vectors and recommend the top 10 most matched movies,enhancing user exprience by generating actual movie posters of the recommended movies using the tmdb api.
 
 
  <img width="901" alt="Screenshot 2024-01-10 000720" src="https://github.com/thatdamncoder/whats-next-on-netflix/assets/144144009/d1a07c7b-d06b-42cd-be30-b54fdb74b35b">
@@ -19,7 +19,7 @@ What's Next on Netflix is a machine learning-powered movie recommendation web ap
 - **Dataset**: Utilizes the 5000 TMDB Kaggle dataset for comprehensive movie information.
 - **Vectorization**: Employs text and count vectorization techniques for accurate movie matching.
 - **Engaging UI**: Incorporates Streamlit_extras for additional features and an engaging user experience.
-- **Poster Display**: View posters of the recommended movies for a visual preview.
+- **Poster Display**: View posters of the recommended movies for a visual preview using tmdb api.
 - **Deployment**: Hosted on Streamlit, accessible via [https://whats-next-on-netflix.streamlit.app/].
 
 ## How to Use
@@ -34,7 +34,7 @@ What's Next on Netflix is a machine learning-powered movie recommendation web ap
 - Streamlit: The app is deployed using the Streamlit framework.
 - Kaggle Dataset: Utilizes the 5000 TMDB Kaggle dataset for movie details that can be accessed here [].
 - Text Vectorization: Employs text vectorization techniques for enhanced matching.
-- Count Vectorization: Utilizes count vectorization for accurate recommendations.
+- Cosine Similarity: Utilizes cosine similarity for accurate recommendations.
 - Streamlit_extras: Enhances the user interface with additional features.
 
 ## Feedback
