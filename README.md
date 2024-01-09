@@ -1,4 +1,4 @@
-# What's Next on Netflix
+# What's Next on Netflix 🍿
 
 Welcome to **What's Next on Netflix** - Your Personal Movie Recommendation WebApp!
 
