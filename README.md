@@ -32,7 +32,7 @@ What's Next on Netflix is a machine learning-powered movie recommendation web ap
 ## Technologies Used
 
 - Streamlit: The app is deployed using the Streamlit framework.
-- Kaggle Dataset: Utilizes the 5000 TMDB Kaggle dataset for movie details that can be accessed here [].
+- Kaggle Dataset: Utilizes the 5000 TMDB Kaggle dataset for movie details.
 - Text Vectorization: Employs text vectorization techniques for enhanced matching.
 - Cosine Similarity: Utilizes cosine similarity for accurate recommendations.
 - Streamlit_extras: Enhances the user interface with additional features.
