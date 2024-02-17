@@ -1,5 +1,6 @@
 import streamlit as st
 import pickle
+import os
 import pandas as pd
 import requests
 
@@ -20,7 +21,7 @@ page_bg="""
 
 st.markdown(page_bg,unsafe_allow_html=True)
 
-api_key=os.get
+api_key=os.getenv("API_KEY")
 def fetch_poster(movie_id):
     response=requests.get('https://api.themoviedb.org/3/movie/{}?api_key={}&language=en-US'.format(movie_id,api_key))
     data=response.json()
